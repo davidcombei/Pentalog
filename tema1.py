@@ -12,7 +12,8 @@ import requests
 
 
 
-
+#dir(requests)
+#dir(BeautifulSoup)
 
 def print_html_meta(url):
  """
@@ -30,7 +31,7 @@ def print_html_meta(url):
 
 
 #cer request  la adresa URL
- back_url=requests.get(my_url)
+ back_url=requests.get(url)
 
 # verific daca raspunsul are codul 200
  if back_url.status_code==200:
@@ -56,8 +57,5 @@ def print_html_meta(url):
 
 
 
-#luam input de la tastatura adresa URL dorita
-my_url=input("Adresa URL este : ")
- #apelul functiei create
-print_html_meta(my_url)
+
 
