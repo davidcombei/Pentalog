@@ -12,8 +12,7 @@ import requests
 
 
 
-#dir(requests)
-#dir(BeautifulSoup)
+
 
 def print_html_meta(url):
  """
