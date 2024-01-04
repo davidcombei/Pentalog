@@ -1,6 +1,6 @@
 """
-modul care compara pretul fiecarui anunt gasit cu pretul din .ini si in cazul in care exista un anunt
-se trimite un email automat la adresa de email din acelasi fisier .ini
+modul care compara pretul fiecarui anunt gasit cu pretul din .ini si in cazul in care exista un anunt 
+cu pretul mai mic se trimite un email automat la adresa de email din acelasi fisier .ini
 """
 
 import products
